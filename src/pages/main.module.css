@@ -1,0 +1,95 @@
+.mainContainer {
+    background-color: #f9f9f9;
+    padding: 40px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 60%;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .heading {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .subHeading {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 40px;
+  }
+  
+  .uploadBox {
+    margin-bottom: 30px;
+  }
+  
+  .uploadBox label {
+    font-size: 16px;
+    color: #333;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .uploadInput {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .buttonBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .submitButton {
+    background-color: #ff8a00;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submitButton:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .submitButton:hover {
+    background-color: #ff7c00;
+  }
+  
+  .feedbackBox {
+    margin-top: 30px;
+  }
+  
+  .feedbackButton {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .feedbackButton:disabled {
+    background-color: #999;
+    cursor: not-allowed;
+  }
+  
+  .feedbackButton:hover {
+    background-color: #444;
+  }
+  
